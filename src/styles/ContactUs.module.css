@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.inputs {
+  margin-right: 1rem;
+  height: 7vh;
+  width: 25vw;
+}
+
+.labels {
+  margin-right: 1%;
+  font-size: 25px;
+}
+
+.button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  height: 7vh;
+  width: 10vw;
+}
+
+.button:hover {
+  background-color: dimgrey;
+  cursor: pointer;
+}
