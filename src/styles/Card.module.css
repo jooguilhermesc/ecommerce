@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 20vw;
+  height: 70vh;
+  padding: 1rem;
+  margin: 10px;
+}
+
+.salesInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+
+.booksInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+}
+
+.price {
+  width: 7vw;
+}
+
+.button {
+  border-style: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 2%;
+}
+
+.button:hover {
+  background-color: dimgrey;
+  cursor: pointer;
+}
